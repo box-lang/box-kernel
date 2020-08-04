@@ -1,23 +1,21 @@
 from distutils.core import setup
 
-with open('README.rst') as f:
+with open('README.md') as f:
     readme = f.read()
 
 setup(
-    name='echo_kernel',
+    name='box_kernel-stauffenbits',
     version='1.1',
-    packages=['echo_kernel'],
-    description='Simple example kernel for Jupyter',
+    packages=['box_kernel'],
+    description='Simple box kernel for Jupyter',
     long_description=readme,
-    author='Jupyter Development Team',
-    author_email='jupyter@googlegroups.com',
-    url='https://github.com/jupyter/echo_kernel',
-    install_requires=[
-        'jupyter_client', 'IPython', 'ipykernel'
-    ],
+    author='Joshua M. Moore',
+    author_email='moore.joshua@pm.me',
+    url='https://github.com/stauffenbits/box_kernel',
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python :: 3',
+        'Programming Language :: Node :: 12.x'
     ],
 )

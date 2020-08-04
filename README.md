@@ -1,17 +1,17 @@
-echo_kernel
+box_kernel
 ===========
 
-``echo_kernel`` is a simple example of a Jupyter kernel. This repository
+``box_kernel`` is a simple example of a Jupyter kernel. This repository
 complements the documentation on wrapper kernels here:
 
 http://jupyter-client.readthedocs.io/en/latest/wrapperkernels.html
 
 Installation
 ------------
-To install ``echo_kernel`` from PyPI::
+To install ``box_kernel`` from PyPI::
 
-    pip install echo_kernel
-    python -m echo_kernel.install
+    pip install box_kernel
+    python -m box_kernel.install
 
 Using the Echo kernel
 ---------------------
