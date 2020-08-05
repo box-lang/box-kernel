@@ -1,11 +1,11 @@
 from distutils.core import setup
 
-with open('README.md') as f:
+with open('README') as f:
     readme = f.read()
 
 setup(
     name='box_kernel-stauffenbits',
-    version='1.2',
+    version='1.3',
     packages=['box_kernel'],
     description='Simple box kernel for Jupyter',
     long_description=readme,
