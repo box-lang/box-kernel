@@ -3,7 +3,7 @@ import subprocess
 
 class BoxKernel(Kernel):
     implementation = 'box_kernel'
-    implementation_version = '1.0'
+    implementation_version = '1.2'
     language = 'box'
     language_version = '0.6'
     language_info = {

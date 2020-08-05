@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name='box_kernel-stauffenbits',
-    version='1.1',
+    version='1.2',
     packages=['box_kernel'],
     description='Simple box kernel for Jupyter',
     long_description=readme,
