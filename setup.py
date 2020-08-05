@@ -1,3 +1,4 @@
+import setuptools
 from distutils.core import setup
 
 with open('README') as f:
@@ -6,7 +7,7 @@ with open('README') as f:
 setup(
     name='box_kernel-stauffenbits',
     version='1.4',
-    packages=['box_kernel'],
+    packages=setuptools.find_packages(),
     description='Simple box kernel for Jupyter',
     long_description=readme,
     author='Joshua M. Moore',

@@ -1,21 +1,23 @@
 box_kernel
 ===========
 
-``box_kernel`` is a simple example of a Jupyter kernel. This repository
+``box_kernel`` is a simple of a Jupyter kernel for the Box Language. This repository
 complements the documentation on wrapper kernels here:
 
 http://jupyter-client.readthedocs.io/en/latest/wrapperkernels.html
 
 Installation
 ------------
-To install ``box_kernel`` from PyPI::
+Ensure you have the Box Language Runtime installed: 
 
-    pip install box_kernel
-    python -m box_kernel.install
+```sh
+npm install @stauffenbits/box
+```
 
-Using the Echo kernel
----------------------
-**Notebook**: The *New* menu in the notebook should show an option for an Echo notebook.
+Then add node_modules/@stauffenbits/box/bin/box to your path, if node doesn't do that for you. 
 
-**Console frontends**: To use it with the console frontends, add ``--kernel echo`` to
-their command line arguments.
+To install the ``box_kernel`` from PyPI::
+
+    pip3 install box-kernel-stauffenbits
+    python3 -m box-kernel-stauffenbits.install
+
